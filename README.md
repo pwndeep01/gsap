@@ -1,16 +1,54 @@
-# React + Vite
+# 🚗 Scroll Animation Project (GSAP + ScrollTrigger)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small experimental project where I explored **GSAP** and its powerful **ScrollTrigger** plugin.
 
-Currently, two official plugins are available:
+The idea was simple:
+Create a scroll-based animation where a car moves across the screen, and statistic cards appear during the movement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ What Happens in This Project?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- The section gets pinned when scrolling starts.
+- A car moves horizontally across the screen.
+- As the car progresses, cards slide in and fade into view.
+- Everything is controlled using a GSAP timeline synced with scroll.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Used
+
+- React
+- GSAP
+- ScrollTrigger
+- @gsap/react
+
+---
+
+## 🧠 What I Learned
+
+- How to create a `gsap.timeline()`
+- How `ScrollTrigger` works with `pin` and `scrub`
+- How to control animation timing using timeline positions
+- How to synchronize multiple animations
+- How scroll distance maps to animation progress
+
+---
+
+## 🚀 Key Concepts Practiced
+
+- Scroll-based animations
+- Pinned sections
+- Timeline sequencing
+- Coordinated motion effects
+- Controlled reveal animations
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm install gsap
+npm install @gsap/react
+npm run dev
