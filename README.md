@@ -1,3 +1,4 @@
+link: https://gsap-project-ruby.vercel.app/
 # 🚗 Scroll Animation Project (GSAP + ScrollTrigger)
 
 This is a small experimental project where I explored **GSAP** and its powerful **ScrollTrigger** plugin.
