@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.view1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1d1d1;
+}
+
+
+
+.card1 {
+  top: 5%;
+  right: 30%;
+  background: #def54f;
+  color: #111;
+  font-size: 16px;
+  opacity: 1;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  position: absolute;
+  transition: opacity 0.5s;
+  gap: 5px;
+}
+
+.card2 {
+  top: 5%;
+  right: 10%;
+  background: #333;
+  color: #fff;
+  opacity: 1;
+  font-size: 16px;
+  transition: opacity 0.5s;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  position: absolute;
+  gap: 5px;
+}
+
+.card3 {
+  bottom: 5%;
+  right: 35%;
+  background: #6ac9ff;
+  color: #111;
+  opacity: 1;
+  font-size: 16px;
+  transition: opacity 0.5s;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  position: absolute;
+  gap: 5px;
+  transition: opacity 0.5s;
+}
+
+.card4 {
+  bottom: 5%;
+  right: 12.5%;
+  background: #fa7328;
+  color: #111;
+  opacity: 1;
+  font-size: 16px;
+  transition: opacity 0.5s;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  position: absolute;
+  gap: 5px;
+}
+
+.car {
+  width: 25%;
+  height: 150px;
+  position: fixed;
+  left: 0;
+  margin-left: -50px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  opacity: 0;
+  transform: translateX(-100px);
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card h1 {
+  font-size: 50px;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text {
+
+  width: 100vw;
+  height: 150px;
+  position: relative;
+  unicode-bidi: isolate;
+  background: #45db7d;
+}
+
+.trail {
+  height: 100%;
+  background-color: #1e1e1e;
+  position: absolute;
+  margin-left: 50px;
+  z-index: 9;
+  width: 100%;
+}
+
+.heading {
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  font-size: 7rem;
+}
+
+.view2 {
+  height: 100vh;
+}
